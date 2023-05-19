@@ -8,3 +8,7 @@ console.log(absoluteValuesSumMinimization([2, 4, 7]));
 console.log(absoluteValuesSumMinimization([2, 4, 7, 6]));
 console.log(absoluteValuesSumMinimization([2, 4, 7, 6, 6]));
 console.log(absoluteValuesSumMinimization([2, 4, 7, 6, 6, 8]));
+
+
+//other useful articles
+// https://www.tutorialspoint.com/absolute-values-sum-minimization-in-javascript
