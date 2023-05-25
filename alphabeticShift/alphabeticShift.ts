@@ -1,6 +1,7 @@
 export function alphabeticShift(inputString: string): string {
-  const alphabet: object = {
+  const alphabet = {
     a: 'b',
+    b: 'c',
     c: 'd',
     d: 'e',
     e: 'f',
