@@ -11,3 +11,6 @@ export function arrayChange(inputArray: number[]): number {
 }
 
 console.log(arrayChange([1, 1, 1]));
+
+//better explanation but in C++
+// https://www.youtube.com/watch?v=ttznU-BTqTk
