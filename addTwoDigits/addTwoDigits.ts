@@ -8,8 +8,17 @@
 //Dylan answer
 
 export function addTwoDigits(n: any): number {
-  let nums = n.toString().split('');
-  return parseInt(nums[0]) + parseInt(nums[1]);
+  let numbers = n.toString().split('');
+
+  return parseInt(numbers[0]) + parseInt(numbers[1]);
 }
 
 console.log(addTwoDigits(34));
+console.log(addTwoDigits(74));
+
+// export function addTwoDigits(n: any): number {
+//   let nums = n.toString().split('');
+//   console.log(nums);
+
+//   return parseInt(nums[0]) + parseInt(nums[1]);
+// }

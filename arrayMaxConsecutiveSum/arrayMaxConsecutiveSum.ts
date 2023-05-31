@@ -2,7 +2,7 @@ export function arrayMaxConsecutiveSum(
   inputArray: number[],
   k: number
 ): number {
-  let sum = inputArray[0] + inputArray[1];
+  let sum = 0;
   let max = 0;
 
   // first for loop is to initialize value of max
