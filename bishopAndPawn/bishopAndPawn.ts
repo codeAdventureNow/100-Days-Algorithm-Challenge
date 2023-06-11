@@ -11,6 +11,7 @@ export function bishopAndPawn(bishop: string, pawn: string): boolean {
   };
 
   //for x we turned the letters into numbers
+
   const bishopX = board[bishop[0]];
   //for y the string number was parsed into an integer
   const bishopY = parseInt(bishop[1]);
