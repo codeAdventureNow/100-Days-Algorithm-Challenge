@@ -6,6 +6,9 @@ export function commonCharacterCount(s1: string, s2: string): number {
   const s2CharCount = getCharList(s2Chars);
   let total = 0;
 
+  console.log(s1CharCount);
+  console.log(s2CharCount);
+
   for (const prop in s1CharCount) {
     if (s2CharCount.hasOwnProperty(prop)) {
       if (s2CharCount[prop] < s1CharCount[prop]) {
