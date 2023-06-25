@@ -6,7 +6,7 @@ export function depositProfit(
   let year = 0;
   let account = deposit;
 
-  while (threshold > account) {
+  while (account < threshold) {
     account += account * (rate / 100);
     year++;
   }
