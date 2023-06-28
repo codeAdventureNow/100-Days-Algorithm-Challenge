@@ -1,6 +1,5 @@
 export function domainType(domains: string[]): string[] {
-  const domainType: string[] = [];
-
+  const domainType: string[] = [];wzw
   for (let i = 0; i < domains.length; i++) {
     const domain = domains[i].split('.');
     const lastDomain = domain[domain.length - 1];
