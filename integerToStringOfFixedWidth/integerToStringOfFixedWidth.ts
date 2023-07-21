@@ -7,7 +7,6 @@ export function integerToStringOfFixedWidth(
   const widthDiff = width - numberWidth;
 
   if (numberWidth < width) {
-    const widthDiff = width - numberWidth;
     let padStart = '';
 
     for (let i = 0; i < widthDiff; i++) {
