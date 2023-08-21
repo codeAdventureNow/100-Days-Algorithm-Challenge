@@ -4,8 +4,8 @@ export function seatsInTheater(
   col: number,
   row: number
 ): number {
-  const colDif = nCols - col + 1;
-  const rowDif = nRows - row;
+  const colDif: number = nCols - col + 1;
+  const rowDif: number = nRows - row;
   return colDif * rowDif;
 }
 
