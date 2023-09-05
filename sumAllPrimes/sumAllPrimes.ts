@@ -3,6 +3,7 @@ export function sumAllPrimes(num: number): number {
 
   for (let i = 2; i < num; i++) {
     for (let j = 2; j <= i; j++) {
+      console.log(i, j);
       if (i === j) {
         primesTotal += i;
       }
@@ -17,4 +18,4 @@ export function sumAllPrimes(num: number): number {
 }
 
 console.log(sumAllPrimes(10));
-console.log(sumAllPrimes(977));
+// console.log(sumAllPrimes(977));
